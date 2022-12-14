@@ -44,6 +44,12 @@ Tab1Section:NewButton("Tzechco Hub","Pls Donate Script",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/bardium/random/main/plsdonateoldtestingversion'))()
 end)
 
+---Eclipse Hub [1]
+
+Tab1Section:NewButton("Eclipse Hub","MM2 Script",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script'),true))()
+end)
+
 ---Headless FE [2]
 
 Tab2Section:NewButton("Headless","Headless Script",function()
