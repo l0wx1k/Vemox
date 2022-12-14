@@ -10,38 +10,44 @@ local Tab2Section = Tab2:NewSection("Others")
 
 ---Infinite Yield [1]
 
-Tab1Section:NewButton("Infinite Yield","Infinite Yield Script",function()
+Tab1Section:NewButton("Infinite Yield","Infinite Yield (+ 500 Cmds) Script",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
 ---Ice Hub [1]
 
-Tab1Section:NewButton("Ice Hub","Ice Hub Script",function()
+Tab1Section:NewButton("Ice Hub","Brookhaven/Blox Fruit/Adopt me... Script",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
 end)
 
 ---Pendulum Hub [1]
 
-Tab1Section:NewButton("Pendulum Hub","Pendulum Hub Script",function()
+Tab1Section:NewButton("Pendulum Hub","+ 100 FE Scripts",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
 end)
 
 ---Backdoor.exe Hub [1]
 
-Tab1Section:NewButton("Backdoor.exe Hub","Backdoor.exe Hub Script",function()
+Tab1Section:NewButton("Backdoor.exe Hub","Script for run Require Scripts",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v8/src/main.lua"))();
 end)
 
 ---Hoho Hub [1]
 
-Tab1Section:NewButton("Hoho Hub","Hoho Hub Script",function()
+Tab1Section:NewButton("Hoho Hub","Blox fruit/MM2/GPO... Script",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
 
----Pls Donate Hub [1]
+---Tzechco Hub [1]
 
-Tab1Section:NewButton("Pls Donate Hub","Pls Donate Hub Script",function()
+Tab1Section:NewButton("Tzechco Hub","Pls Donate Script",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/bardium/random/main/plsdonateoldtestingversion'))()
+end)
+
+---Eclipse Hub [1]
+
+Tab1Section:NewButton("Eclipse Hub","MM2 Script",function()
+loadstring(game:HttpGet('loadstring(game:HttpGet(('https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script'),true))()'))()
 end)
 
 ---Headless FE [2]
@@ -64,6 +70,6 @@ end)
 
 ---FPS Boost [2]
 
-Tab2Section:NewButton("FPS Boost","Boost your FPS!",function()
+Tab2Section:NewButton("FPS Boost","Boost FPS Script",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/l0wx1k/fps-boost/main/Fps%20booster'))()
 end)
