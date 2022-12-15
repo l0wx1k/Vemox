@@ -5,8 +5,8 @@ local window = kavoUi.CreateLib("Vemox Hub","BloodTheme")
 
 local Tab1 = window:NewTab("Scripts")
 local Tab1Section = Tab1:NewSection("Scripts")
-local Tab2 = window:NewTab("Others")
-local Tab2Section = Tab2:NewSection("Others")
+local Tab2 = window:NewTab("Utility")
+local Tab2Section = Tab2:NewSection("Utility")
 
 ---Infinite Yield [1]
 
@@ -66,6 +66,12 @@ end)
 
 Tab2Section:NewButton("Fly","Fly Script",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/l0wx1k/fly/main/Fly'))()
+end)
+
+---Chat Spy [2]
+
+Tab2Section:NewButton("Chat Spy","Can View All Private Messages",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/l0wx1k/chat-/main/Spy'))()
 end)
 
 ---FPS Boost [2]
