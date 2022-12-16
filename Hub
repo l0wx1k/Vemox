@@ -80,8 +80,16 @@ Tab2Section:NewButton("Chat Spy","Can View All Private Messages",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/l0wx1k/chat-/main/Spy'))()
 end)
 
+---Keyboard [2]
+
+Tab2Section:NewButton("Keyboard","Keyboard Script",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
 ---FPS Boost [2]
 
 Tab2Section:NewButton("FPS Boost","Boost FPS Script",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/l0wx1k/fps-boost/main/Fps%20booster'))()
 end)
+
+
